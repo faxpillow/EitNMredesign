@@ -274,9 +274,9 @@ p.converge {
 .triangle-image-wrapper {
     float: right;
     position: relative;
-    padding-top: 30px;
+    padding-top: 70px;
     padding-left: 20px;
-    display: inline-block;
+    display: flex;
 }
 
 .triangle {
