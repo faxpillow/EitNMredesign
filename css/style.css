@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap');
+
+@media (min-width: 576px) {
+    ...
+}
+
+@media (min-width: 768px) {
+    ...
+}
+
+@media (min-width: 992px) {
+    ...
+}
+
+@media (min-width: 1200px) {
+    ...
+}
+
+@include media-breakpoint-down(xs) {
+    ...
+}
+
+@include media-breakpoint-down(sm) {
+    ...
+}
+
+@include media-breakpoint-down(md) {
+    ...
+}
+
+@include media-breakpoint-down(lg) {
+    ...
+}
+
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {}
+
+h1,
+h2,
+h5,
+h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: #fff 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    text-shadow: #fff 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px, #000 0px 0px 4px;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.navbar {
+    font-weight: bold;
+    margin-bottom: 0;
+    background-color: #fc4300;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0px;
+}
+
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #18006e !important;
+    background-color: #fff !important;
+}
+
+..navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar-brand {
+    position: absolute;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.icon-bar {
+    color: aliceblue;
+}
+
+.jumbotron {
+    background: url(../assets/img/andromeda.jpg);
+    color: white;
+    background-size: auto 100%;
+    padding-bottom: 180px;
+    margin-bottom: 0;
+}
+
+h1.title {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+h4.title,
+h5 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h3.display-7 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.accordion {
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: #d9d9d9;
+    color: #444;
+    cursor: pointer;
+    padding: 14px;
+    width: 90%;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc4c4;
+}
+
+.panel {
+    margin-left: 40px;
+    width: 90%;
+    padding: 0 18px;
+    background-color: #f5fcfb;
+    display: none;
+    overflow: hidden;
+    color: #444;
+    font-size: 14px;
+}
+
+.w3-bar-block .w3-bar-item {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.w3-bar-block.w3-center .w3-bar-item {
+    text-align: center
+}
+
+.w3-block {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #ccc4c4 !important;
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+
+.accordion:after {
+    content: '\02795';
+    font-size: 20px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
+
+p.about {
+    font-size:16px;
+    text-align: right;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    text-justify: auto;
+    text-shadow: #fff 0px 0px 10px, #fff 0px 0px 10px, #fff 0px 0px 10px, #fff 0px 0px 10px, #fff 0px 0px 10px, #fff 0px 0px 10px;
+}
+
+p.converge {
+        font-size:16px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    text-justify: auto;
+    color: aliceblue;
+}
+
+.container-fluid {}
+
+#about {
+    background-image: url(../assets/img/solis.png);
+    background-size: 100% auto;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#converge {
+    background: url(../assets/img/idr.png);
+    background-position: right;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.triangle-image-wrapper {
+    float: right;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.triangle {
+    width: 260px;
+    height: 260px;
+}
+
+
+.col-sm-4 {
+    display: inline-block;
+}
+
+#container {
+    background-color: #c4c0be;
+    color: steelblue;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    max-width: 100%;
+}
+
+h4.sponsors {
+    color: #4e6aad;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.logo {
+    box-sizing: border-box;
+    width: 100px;
+    height: 300px;
+    border: none;
+    line-height: 1;
+    margin: 5px;
+    vertical-align: top;
+    padding: 0 0 0 0;
+    height: auto;
+    text-align: center;
+    background-color: #c4c0be;
+    display: inline-grid;
+
+}
+
+.logo img {
+    max-width: 100%;
+    border: none;
+    margin: 0px 0px;
+}
+
+.logo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#contact {
+    background-color: #2b333b;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer .glyphicon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #f4511e;
+}
+
+footer {
+    background-image: url(../assets/img/nasagate.jpg);
+    padding-bottom: 40px;
+}
