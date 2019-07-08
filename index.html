@@ -323,20 +323,17 @@
             ];
 
 
-
-
-
-
             for (i in logos) {
                 document.getElementById("container").innerHTML += '<div class="logo"></div>';
                 console.log(document.getElementsByClassName('logo'));
                 document.getElementsByClassName('logo')[i].innerHTML = `
             <img src="${logos[i].image}">
             <a href="${logos[i].link}">${logos[i].logo}</a>
-
-
 			`;
             }
+	
+	document.body.style.zoom=1.2;this.blur();
+		
         </script>
 
 </body>
