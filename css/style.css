@@ -124,7 +124,7 @@ h5 {
 .jumbotron {
     background: url(../assets/img/andromeda.jpg);
     color: white;
-    background-size: auto 100%;
+    background-size: 100% auto;
     padding-bottom: 180px;
     margin-bottom: 0;
 }
