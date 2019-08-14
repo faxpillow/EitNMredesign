@@ -1,4 +1,8 @@
+* {}
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap');
+
+    {}
 
 @media (min-width: 576px) {
     ...
@@ -32,6 +36,7 @@
     ...
 }
 
+
 * {
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 0;
@@ -40,6 +45,7 @@
 }
 
 a {
+    font-family: 'Open Sans Condensed', sans-serif;
     text-decoration: none;
     font-weight: bold;
 }
@@ -55,7 +61,7 @@ h6 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 60px;
     padding-top: 30px;
 }
 
@@ -98,6 +104,8 @@ h5 {
 .navbar .navbar-brand {
     color: #fff !important;
     padding: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 
@@ -132,15 +140,16 @@ h5 {
 
 h1.title {
     margin-top: 70px;
-    margin-left: 40px;
-    font-size: 7em;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 6em;
 }
 
 h4.title,
 h5 {
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 
@@ -149,13 +158,13 @@ h3.display-7 {
     margin-top: 10px;
     margin-left: 60px;
     margin-right: 60px;
-        font-weight: bold;
+    font-weight: bold;
 }
 
 .accordion {
     margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
     background-color: #d9d9d9;
     color: #444;
     cursor: pointer;
@@ -176,8 +185,8 @@ h3.display-7 {
 }
 
 .panel {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
     width: 90%;
     padding: 0 18px;
     background-color: #f5fcfb;
@@ -241,40 +250,40 @@ h3.display-7 {
     content: "\2796";
 }
 
-.transbox{
-    margin:10px;
-    background-color:aliceblue;
+.transbox {
+    margin: 10px;
+    background-color: aliceblue;
     opacity: 0.6;
-    padding:30px;
-    margin-left:60px;
-    margin-right:60px;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
-.transbox2{
-        margin:10px;
-    background-color:black;
+.transbox2 {
+    margin: 10px;
+    background-color: black;
     opacity: 0.6;
-    padding:30px;
-    margin-left:60px;
-    margin-right:60px;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 p.about {
-    font-size:20px;
+    font-size: 20px;
     text-align: right;
     text-align: justify;
     text-justify: auto;
     text-shadow: #fff 0px 0px 10px, #fff 0px 0px 10px, #fff 0px 0px 10px, #fff 0px 0px 10px, #fff 0px 0px 10px, #fff 0px 0px 10px;
-        font-weight: bold;
+    font-weight: bold;
 }
 
 p.converge {
-    font-size:20px;
+    font-size: 20px;
     text-align: left;
     text-align: justify;
     text-justify: auto;
     color: aliceblue;
-        font-weight: bold;
+    font-weight: bold;
 }
 
 .container-fluid {}
@@ -297,10 +306,10 @@ p.converge {
 .triangle-image-wrapper {
     float: right;
     position: relative;
-    z-index:100;
+    z-index: 100;
     padding-top: 100px;
     padding-left: 20px;
-    padding-right:60px;
+    padding-right: 60px;
     display: flex;
 }
 
@@ -320,6 +329,8 @@ p.converge {
     align-content: center;
     text-align: center;
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 60px;
     max-width: 100%;
 }
@@ -356,6 +367,7 @@ h4.sponsors {
     max-width: 100%;
     border: none;
     margin: 0px 0px;
+
 }
 
 .logo:after {
@@ -366,7 +378,7 @@ h4.sponsors {
 
 
 p.contact {
-    font-size:2.2em;
+    font-size: 2.2em;
     font-weight: bold;
 }
 
